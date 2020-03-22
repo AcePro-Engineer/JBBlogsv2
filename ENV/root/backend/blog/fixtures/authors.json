@@ -1,0 +1,12 @@
+[
+    {
+        "model": "blog.Author",
+        "pk": 1,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Doe 'AKA' Da Goat",
+            "occupation": "RockStar MVP Software Engineer",
+            "about_me_description": "I need more booze."
+        }
+    }
+]

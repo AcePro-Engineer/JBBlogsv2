@@ -1,0 +1,41 @@
+.card {
+    /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
+    display: block;
+    padding-right: 25px;
+    width: 70%;
+    border-bottom: 1px solid #d1cfcf;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+#postlisting-img {
+    display: block;
+    padding-top: 10px;
+    float: right;
+}
+
+#post-title-slug {
+    display: block;
+    text-align: justify;
+}
+
+#container
+{
+    display: block;
+    padding-left: 0;
+    padding-right: 155px; 
+    float: right;
+    clear: right;
+    overflow: hidden;
+}
+
+#post-title-slug {
+    text-align: left;
+    text-decoration: none;
+}
+
+#post-title-slug:hover {
+    color: blue;
+    background-color: #ffffff !important;
+}
+

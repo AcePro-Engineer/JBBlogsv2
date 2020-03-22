@@ -1,0 +1,39 @@
+#post-content {
+    overflow: hidden;
+    background-color: #ffffff;
+    width: 75%;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    padding-right: 25px;
+    height: 100%;
+}
+
+/*********************************************************
+    DEVELOPER NOTE: 
+    
+    In order to get content to stretch to fit the screen
+    you must define ALL CONTENT IN CSS WITH A DISPLAY OF
+    FLEX.Once all items are define with a flexbox display
+    use "FLEX: 1;" to get the content to stretch to fit
+    any unused space in the screen. This will ensure you
+    do not have to statically define height/width of
+    content.
+
+***********************************************************/
+
+#articleTitle {
+    flex-grow: 1;
+    display: flex;
+}
+
+#article {
+    flex-grow: 3;
+    display: flex;
+    height: 200px;
+}
+
+#postlisting-img {
+    flex-grow: 1;
+    display: flex;
+}

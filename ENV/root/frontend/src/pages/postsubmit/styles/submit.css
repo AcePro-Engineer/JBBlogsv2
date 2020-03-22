@@ -1,0 +1,46 @@
+.PostSubmitForm {
+    overflow: hidden;
+    width: 70%;
+}
+
+#submitform-content {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#HeadingSection, #ArticleSection {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#headingTitleLabel, #headingDescLabel, #articleTitleLabel,
+#articleSlugLabel, #articleBodyLabel {
+    font-weight: bold;
+}
+
+#articleSlugAside {
+    color: red;
+    display: inline-block;
+    font-size: small;
+    padding-left: 5px;
+}
+
+#buttonArea {
+    display: flex;
+}
+
+/*Button {
+    margin: 5px;
+    background-color: #008CBA;
+    border: none;
+}*/
+
+#btn-save-changes {
+    margin: 5px;
+    background-color: #008CBA;
+    border: none;
+}

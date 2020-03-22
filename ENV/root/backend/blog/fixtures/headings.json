@@ -1,0 +1,32 @@
+[
+    {
+        "model": "blog.Heading",
+        "pk": 1,
+        "fields": {
+            "heading_title": "My First Blog Post.",
+            "description": "This is a test blog entry for the JBBlogs website.",
+            "user_id": 1,
+            "preview_image": "media/images/defaultphoto.jpg"
+        }
+    },
+    {
+        "model": "blog.Heading",
+        "pk": 2,
+        "fields": {
+            "heading_title": "This is My Second Blog Post.",
+            "description": "Creating a second test blog entry.",
+            "user_id": 1,
+            "preview_image": "media/images/defaultphoto.jpg"
+        }
+    },
+    {
+        "model": "blog.Heading",
+        "pk": 3,
+        "fields": {
+            "heading_title": "Third Post.",
+            "description": "Another test entry.",
+            "user_id": 1,
+            "preview_image": "media/images/defaultphoto.jpg"
+        }
+    }
+]

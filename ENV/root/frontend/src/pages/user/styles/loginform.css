@@ -1,0 +1,20 @@
+.login-page {
+    overflow: hidden;
+}
+
+#loginform-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    width: 75%;
+}
+
+#buttonArea {
+    flex-grow: 1;
+    display: flex;
+    direction: rtl;
+    margin-right: 10px;
+    height: 620px;
+}
